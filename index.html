@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сумма двух чисел</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Веб-сервис для вычисления суммы</h1>
+        
+        <div id="registration">
+            <h2>Регистрация</h2>
+            <input type="email" id="email" placeholder="Введите ваш email" required>
+            <button id="registerBtn">Зарегистрироваться</button>
+        </div>
+
+        <div id="calculator" style="display:none;">
+            <h2>Калькулятор</h2>
+            <input type="number" id="number1" placeholder="Первое число" required>
+            <input type="number" id="number2" placeholder="Второе число" required>
+            <button id="calculateBtn">Вычислить сумму</button>
+            <h3 id="result"></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
